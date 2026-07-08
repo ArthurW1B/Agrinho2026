@@ -210,20 +210,4 @@ footer p {
     .tema-central h2 {
         font-size: 1.6rem;
     }
-
-    // Seleciona o botão de alternar o modo escuro pelo ID dele
-const btnDarkMode = document.getElementById('dark-mode-toggle');
-
-// Adiciona um evento de clique ao botão
-btnDarkMode.addEventListener('click', () => {
-    // Liga ou desliga a classe 'dark-mode' na tag <body>
-    document.body.classList.toggle('dark-mode');
-
-    // Verifica se o modo escuro está ativo para mudar o texto e o ícone do botão
-    if (document.body.classList.contains('dark-mode')) {
-        btnDarkMode.textContent = '☀️ Modo Claro';
-    } else {
-        btnDarkMode.textContent = '🌙 Modo Escuro';
-    }
-});
 }
