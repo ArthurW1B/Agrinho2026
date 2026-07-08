@@ -2,7 +2,7 @@
 :root {
     --verde-escuro: #2e5c31;
     --verde-claro: #4CAF50;
-    --terra: #8d6e63;
+    --terra: #4e3f39;
     --fundo: #f4f9f4;
     --texto: #333333;
     --branco: #ffffff;
@@ -36,7 +36,7 @@ header h1 {
     letter-spacing: 1px;
 }
 
-/* Menu de Navegação (Fica fixo no topo ao rolar a página) */
+/* Botões para uma melhor navegação */
 nav {
     background-color: var(--verde-claro);
     display: flex;
@@ -73,7 +73,7 @@ nav a:hover {
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
 
-/* Seção do Tema Central */
+/* Tema central */
 .tema-central {
     text-align: center;
     margin-bottom: 3.5rem;
@@ -95,7 +95,7 @@ nav a:hover {
     color: #555555;
 }
 
-/* Seção ABC */
+/* Informação sobre ABC */
 .abc-section h3 {
     color: var(--verde-escuro);
     font-size: 2rem;
@@ -107,7 +107,7 @@ nav a:hover {
     margin-bottom: 1.5rem;
 }
 
-/* Organização dos Cards (Grid Inteligente) */
+/* Organização das cartas */
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -115,7 +115,7 @@ nav a:hover {
     margin-top: 2rem;
 }
 
-/* Estilização Individual dos Cards */
+/* Estilização Individual das cartas */
 .card {
     background-color: #f0f7f1;
     padding: 2rem;
@@ -125,7 +125,7 @@ nav a:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Efeito de Destaque no Card */
+/* Efeito de Destaque na carta */
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
